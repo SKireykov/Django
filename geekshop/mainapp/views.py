@@ -1,10 +1,29 @@
 from django.shortcuts import render
 
 def index(request):
+    context = {
+        'current_user': {
+            'first_name': 'Oleg',
+            'last_name' : 'Maslov',
+            'age' : '32'
+        }
+    }
     return render(request, 'mainapp/index.html')
 
 def products(request):
-    return render(request, 'mainapp/products.html')
+    links_menu = [
+        {'href': 'products_all', 'title': 'все'},
+        {'href': 'products_home', 'title': 'дом'},
+        {'href': 'products_office', 'title': 'офис'},
+        {'href': 'products_modern', 'title': 'модерн'},
+        {'href': 'products_classic', 'title': 'классика'},
+    ]
+
+    context = {
+        'links_menu': links_menu,
+    }
+    return render(request, 'mainapp/products.html', context)
 
 def contact(request):
+
     return render(request, 'mainapp/contact.html')
