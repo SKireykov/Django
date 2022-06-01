@@ -1,0 +1,18 @@
+[
+  {
+    "name" : "home",
+    "description" : "Description category home"
+  },
+  {
+    "name" : "office",
+    "description" : "Description category office"
+  },
+  {
+    "name" : "modern",
+    "description" : "Description category modern"
+  },
+  {
+    "name" : "classic",
+    "description" : "Description category classic"
+  }
+]

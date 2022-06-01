@@ -1,0 +1,67 @@
+[
+  {
+    "category" : "home",
+    "name" : "home1",
+    "image" : "/product/product-1.jpg",
+    "short_desc" : "short description home1",
+    "description" : "Long cute description home1",
+    "price" : 1500.0,
+    "quantity" : 10
+  },{
+    "category" : "home",
+    "name" : "home2",
+    "image" : "/product/product-2.jpg",
+    "short_desc" : "short description home2",
+    "description" : "Long cute description home2",
+    "price" : 2100.0,
+    "quantity" : 10
+  },{
+    "category" : "office",
+    "name" : "office1",
+    "image" : "/product/product-3.jpg",
+    "short_desc" : "short description office1",
+    "description" : "Long cute description office1",
+    "price" : 2400.0,
+    "quantity" : 10
+  },{
+    "category" : "office",
+    "name" : "office2",
+    "image" : "/product/product-4.jpg",
+    "short_desc" : "short description office2",
+    "description" : "Long cute description office2",
+    "price" : 3800.0,
+    "quantity" : 10
+  },{
+    "category" : "modern",
+    "name" : "modern1",
+    "image" : "/product/product-11.jpg",
+    "short_desc" : "short description modern1",
+    "description" : "Long cute description modern1",
+    "price" : 2785.0,
+    "quantity" : 10
+  },{
+    "category" : "modern",
+    "name" : "modern2",
+    "image" : "/product/product-21.jpg",
+    "short_desc" : "short description modern2",
+    "description" : "Long cute description modern2",
+    "price" : 2500.0,
+    "quantity" : 10
+  },{
+    "category" : "classic",
+    "name" : "classic1",
+    "image" : "/product/product-31.jpg",
+    "short_desc" : "short description classic1",
+    "description" : "Long cute description classic1",
+    "price" : 3500.0,
+    "quantity" : 10
+  },{
+    "category" : "classic",
+    "name" : "classic2",
+    "image" : "/product/product-41.jpg",
+    "short_desc" : "short description classic2",
+    "description" : "Long cute description classic2",
+    "price" : 2000.0,
+    "quantity" : 10
+  }
+]
