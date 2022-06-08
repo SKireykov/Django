@@ -19,8 +19,11 @@ from django.conf.urls.static import static
 from django.conf import settings
 from mainapp import views
 
+
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
+    path('admin/', include('adminapp.urls', namespace='adminapp')),
 
     path('', views.index, name='index'),
 
