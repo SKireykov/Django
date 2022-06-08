@@ -17,6 +17,7 @@ def index(request):
         'products': Product.objects.all()[:4],
         'basket': get_basket(request.user)
     }
+
     return render(request, 'mainapp/index.html', context)
 
 def products(request, pk=None):
